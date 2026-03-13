@@ -1,0 +1,33 @@
+name: Update calendar
+
+on:
+  schedule:
+    - cron: '0 5 * * *'  # every day at 05:00 UTC
+  workflow_dispatch:       # allows manual trigger from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: pip install -r requirements.txt
+
+      - run: python wahlrecht_cal.py -o wahlen.ics
+
+      - name: Commit updated calendar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > last_updated.txt
+          git add wahlen.ics last_updated.txt
+          git commit -m "chore: update wahlen.ics"
+          git push
