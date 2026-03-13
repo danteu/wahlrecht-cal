@@ -1,0 +1,72 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wahlrecht-cal//wahlrecht.de//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Wahlen in Deutschland
+X-WR-CALDESC:Wichtige Wahlen in Deutschland (Quelle: https://www.wahlrecht.
+ de/termine.htm)
+X-WR-TIMEZONE:Europe/Berlin
+X-WR-RELCALID:wahlrecht-cal-feed
+X-PUBLISHED-TTL:P1D
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+BEGIN:VEVENT
+SUMMARY:Baden-Württemberg: Landtag
+DTSTART;VALUE=DATE:20260308
+TRANSP:TRANSPARENT
+LOCATION:Baden-Württemberg\, Deutschland
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="Baden-Württemberg, Deutschl
+ and":geo:48.7758,9.1829
+URL:https://www.wahlrecht.de/termine.htm
+UID:664f8ae6ae3a5893cc7f0b7fe139285088785d56@wahlrecht-cal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rheinland-Pfalz: Landtag
+DTSTART;VALUE=DATE:20260322
+TRANSP:TRANSPARENT
+LOCATION:Rheinland-Pfalz\, Deutschland
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="Rheinland-Pfalz, Deutschland
+ ":geo:49.9929,8.2473
+URL:https://www.wahlrecht.de/termine.htm
+UID:b60f2b9ebd277befe869025211361f762755dd86@wahlrecht-cal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sachsen-Anhalt: Landtag
+DTSTART;VALUE=DATE:20260906
+TRANSP:TRANSPARENT
+LOCATION:Sachsen-Anhalt\, Deutschland
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="Sachsen-Anhalt, Deutschland"
+ :geo:52.1205,11.6276
+URL:https://www.wahlrecht.de/termine.htm
+UID:14871b55b8a23d9592a1c4d1d43981e869db2a27@wahlrecht-cal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Berlin: Abgeordnetenhaus
+DTSTART;VALUE=DATE:20260920
+TRANSP:TRANSPARENT
+LOCATION:Berlin\, Deutschland
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="Berlin, Deutschland":geo:52.
+ 52,13.405
+URL:https://www.wahlrecht.de/termine.htm
+UID:b129d39bbaace98355636a1a45f11f16abb73faf@wahlrecht-cal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mecklenburg-Vorpommern: Landtag
+DTSTART;VALUE=DATE:20260920
+TRANSP:TRANSPARENT
+LOCATION:Mecklenburg-Vorpommern\, Deutschland
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="Mecklenburg-Vorpommern, Deut
+ schland":geo:53.6355,11.4012
+URL:https://www.wahlrecht.de/termine.htm
+UID:87fef9c1969c6655966ea086607e1976bdb42d81@wahlrecht-cal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:18. Bundesversammlung: Bundespräsidentenwahl
+DTSTART;VALUE=DATE:20270130
+TRANSP:TRANSPARENT
+LOCATION:Deutschland
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE=Deutschland:geo:52.52,13.405
+URL:https://www.wahlrecht.de/termine.htm
+UID:d780f580d278381b2df6b1f40a4f42dcb53e1f70@wahlrecht-cal
+END:VEVENT
+END:VCALENDAR
