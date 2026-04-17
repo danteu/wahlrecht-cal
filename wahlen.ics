@@ -69,4 +69,44 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE=Deutschland:geo:52.52,13.405
 URL:https://www.wahlrecht.de/termine.htm
 UID:d780f580d278381b2df6b1f40a4f42dcb53e1f70@wahlrecht-cal
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Saarland: Landtag
+DTSTART;VALUE=DATE:20270418
+TRANSP:TRANSPARENT
+LOCATION:Saarland\, Deutschland
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="Saarland, Deutschland":geo:4
+ 9.2354,7.0021
+URL:https://www.wahlrecht.de/termine.htm
+UID:55c5dd78dc7a16729a4ac3a852562736862a01dd@wahlrecht-cal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schleswig-Holstein: Landtag
+DTSTART;VALUE=DATE:20270418
+TRANSP:TRANSPARENT
+LOCATION:Schleswig-Holstein\, Deutschland
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="Schleswig-Holstein, Deutschl
+ and":geo:54.3233,10.1228
+URL:https://www.wahlrecht.de/termine.htm
+UID:b364dc795b5f2a2e8ed5aec040937d2da89bae77@wahlrecht-cal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nordrhein-Westfalen: Landtag
+DTSTART;VALUE=DATE:20270425
+TRANSP:TRANSPARENT
+LOCATION:Nordrhein-Westfalen\, Deutschland
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="Nordrhein-Westfalen, Deutsch
+ land":geo:51.2217,6.7762
+URL:https://www.wahlrecht.de/termine.htm
+UID:0d2d36450dc5bf089aab685ba9a0fd54f6775cce@wahlrecht-cal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bremen: Bürgerschaft (Landtag)
+DTSTART;VALUE=DATE:20270530
+TRANSP:TRANSPARENT
+LOCATION:Bremen\, Deutschland
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="Bremen, Deutschland":geo:53.
+ 0793,8.8017
+URL:https://www.wahlrecht.de/termine.htm
+UID:c78b9259baf9aed92c6e7f3a8080e35b7553a8b6@wahlrecht-cal
+END:VEVENT
 END:VCALENDAR
