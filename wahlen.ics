@@ -109,4 +109,14 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="Bremen, Deutschland":geo:53.
 URL:https://www.wahlrecht.de/termine.htm
 UID:c78b9259baf9aed92c6e7f3a8080e35b7553a8b6@wahlrecht-cal
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Niedersachsen: Landtag
+DTSTART;VALUE=DATE:20270926
+TRANSP:TRANSPARENT
+LOCATION:Niedersachsen\, Deutschland
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="Niedersachsen, Deutschland":
+ geo:52.3744,9.7386
+URL:https://www.wahlrecht.de/termine.htm
+UID:f1766ab7bf4c52e57dd5a75928f967363d7e69fe@wahlrecht-cal
+END:VEVENT
 END:VCALENDAR
